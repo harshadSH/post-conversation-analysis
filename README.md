@@ -50,6 +50,7 @@ git clone https://github.com/harshadSH/post-conversation-analysis.git
 cd post-conversation-analysis
 
 **2️⃣ Create a Virtual Environment**
+
 python -m venv venv
 source venv/bin/activate   # (on Linux/Mac)
 venv\Scripts\activate      # (on Windows)
