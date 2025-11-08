@@ -44,33 +44,33 @@ The system stores each conversation and its analysis in a database and includes 
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository  
 
-git clone https://github.com/harshadSH/post-conversation-analysis.git
-cd post-conversation-analysis
+git clone https://github.com/harshadSH/post-conversation-analysis.git  
+cd post-conversation-analysis  
 
-**2️⃣ Create a Virtual Environment**
+**2️⃣ Create a Virtual Environment**  
 
-python -m venv venv
-source venv/bin/activate   # (on Linux/Mac)
-venv\Scripts\activate      # (on Windows)
+python -m venv venv  
+source venv/bin/activate   # (on Linux/Mac)  
+venv\Scripts\activate      # (on Windows)  
 
-**3️⃣ Install Dependencies**
-pip install -r requirements.txt
+**3️⃣ Install Dependencies**  
+pip install -r requirements.txt  
 
-**4️⃣ Apply Migrations**
-python manage.py makemigrations
-python manage.py migrate
+**4️⃣ Apply Migrations**  
+python manage.py makemigrations  
+python manage.py migrate  
 
-**5️⃣ Run the Server**
-python manage.py runserver
+**5️⃣ Run the Server**  
+python manage.py runserver  
 
 
-Access API at →
-👉 http://127.0.0.1:8000/api/
+Access API at →   
+👉 http://127.0.0.1:8000/api/  
 
-🧩 API Endpoints
-Endpoint	           Method	  Description
-/api/conversations/	 POST	    Upload chat messages (JSON)
-/api/analyse/	       POST	    Analyze a stored conversation
-/api/reports/	       GET	    Get list of all analyzed reports
+🧩 API Endpoints  
+Endpoint	           Method	  Description  
+/api/conversations/	 POST	    Upload chat messages (JSON)   
+/api/analyse/	       POST	    Analyze a stored conversation  
+/api/reports/	       GET	    Get list of all analyzed reports  
