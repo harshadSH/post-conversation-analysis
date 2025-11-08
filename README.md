@@ -45,7 +45,7 @@ The system stores each conversation and its analysis in a database and includes 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/harshadSH/post-conversation-analysis.git
 cd post-conversation-analysis
 
